@@ -5,7 +5,7 @@ set true=1==1
 set false=1==0
 
 :: BANANO payout address (The address that will receive payments)
-set payout_address="ban_1boompow14irck1yauquqypt7afqrh8b6bbu5r93pc6hgbqs7z6o99frcuym"
+set payout_address="ban_1dgirbwot7j5qdqiyw37e5b1ifuxos844843u4dc866bhwi5gw8me9ygh86r"
 
 :: Desired work type, options are "ondemand", "precache", "any" (default)
 set desired_work_type="any"
@@ -14,7 +14,7 @@ set desired_work_type="any"
 :: May increase performance, but will use more system resources
 :: To enable change to:
 :: set async_mode=%true%
-set async_mode=%false%
+set async_mode=%true%
 
 :: Limit logging
 :: Will only log stats updates, instead of all queue-related information
